@@ -1,0 +1,20 @@
+@RequestMapping("/doctor1")
+	@ResponseBody
+	public String doctor1 (){
+		return "William Hartnell";		
+	}
+	@RequestMapping("/doctor4")
+	@ResponseBody
+	public String doctor4 (){
+		return "Tom Bakert";
+	}
+	@RequestMapping("/doctor9")
+	@ResponseBody
+	public String doctor9 (){
+		return "Christopher Eccleston";
+	}
+	@RequestMapping("/doctor13")
+	@ResponseBody
+	public String doctor13 (){
+		return "Jodie Whittaker";
+	}
